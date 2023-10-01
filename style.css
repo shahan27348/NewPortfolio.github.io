@@ -162,13 +162,13 @@ header .navbar ul li a:hover {
     color: #fff;
     font-size: 2rem;
   }
-  /* header .navbar ul li a.active,
+  header .navbar ul li a.active,
   header .navbar ul li a:hover {
     padding: 1rem;
     color: #fff;
     border-radius: 0.5rem;
     border-bottom: 0.5rem solid #011aff;
-  } */
+  }
   .fa-times {
     transform: rotate(180deg);
   }
@@ -208,13 +208,13 @@ header .navbar ul li a:hover {
       color: #fff;
       font-size: 2rem;
     }
-    /* header .navbar ul li a.active,
+    header .navbar ul li a.active,
     header .navbar ul li a:hover {
       padding: 1rem;
       color: #fff;
       border-radius: 0.5rem;
       border-bottom: 0.5rem solid #011aff;
-    } */
+    }
     .fa-times {
       transform: rotate(180deg);
     }
@@ -264,9 +264,9 @@ header .navbar ul li a:hover {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
-/* .home .image img:hover {
+.home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-} */
+}
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
@@ -311,12 +311,12 @@ header .navbar ul li a:hover {
   font-size: 1.5rem;
   transition: 0.3s;
 }
-/* .home .btn:hover {
+.home .btn:hover {
   background: #1a047e;
-} */
-/* .home .btn:hover i {
+}
+.home .btn:hover i {
   transform: translateX(5px);
-} */
+}
 /* social icons start */
 .socials {
   position: relative;
@@ -346,7 +346,7 @@ header .navbar ul li a:hover {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* .social-icons a:active,
+.social-icons a:active,
 .social-icons a:focus,
 .social-icons a:hover {
   color: #fff;
@@ -366,7 +366,7 @@ header .navbar ul li a:hover {
 }
 .social-icons a.instagram:hover {
   background-color: #ee00da;
-} */
+}
 /* social icons end */
 
 /* hero media queries starts*/
@@ -427,14 +427,14 @@ header .navbar ul li a:hover {
   width: 30rem;
   height: auto;
   border-radius: 5%;
-  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity; */
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+  mix-blend-mode: luminosity;
   transition: 0.3s;
   cursor: pointer;
 }
-/* .about .row .image img:hover {
+.about .row .image img:hover {
   mix-blend-mode: normal;
-} */
+}
 .about .row .content {
   flex: 1 1 45rem;
   padding: 3rem;
@@ -491,12 +491,12 @@ header .navbar ul li a:hover {
   font-size: 1.2rem;
   transition: 0.3s;
 }
-/* .resumebtn .btn:hover {
+.resumebtn .btn:hover {
   background: #1a047e;
-} */
-/* .resumebtn .btn:hover i {
+}
+.resumebtn .btn:hover i {
   transform: translateX(5px);
-} */
+}
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
   .about .row .image {
@@ -575,10 +575,10 @@ header .navbar ul li a:hover {
   background: rgba(0, 0, 22, 0.9);
   transition: 0.2s;
 }
-/* .skills .container .bar:hover {
+.skills .container .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
   background-color: rgba(0, 0, 0, 0.9) !important;
-} */
+}
 .skills .container .bar .info {
   display: flex;
   flex-direction: column;
@@ -647,10 +647,10 @@ header .navbar ul li a:hover {
   transition: 0.3s;
   background: rgb(252, 252, 252);
 }
-/* .education .box-container .box:hover {
+.education .box-container .box:hover {
   transform: scale(1.03);
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
-} */
+}
 .education .box-container .box .image {
   flex: 1 1 20rem;
   width: 100%;
@@ -751,7 +751,7 @@ header .navbar ul li a:hover {
 
 /* work section starts */
 .work {
-  /* background: #010124; */
+  background: #010124;
   background: linear-gradient(to bottom, #000031, #00002c);
 }
 .work h2 {
@@ -803,9 +803,9 @@ header .navbar ul li a:hover {
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
 }
-/* .work .box-container .box:hover .content {
+.work .box-container .box:hover .content {
   top: 25%;
-} */
+}
 .work .desc {
   margin: 2rem;
   display: flex;
@@ -832,9 +832,9 @@ header .navbar ul li a:hover {
  
   margin-right: 2rem;
 }
-/* .work .desc .btns .btn:hover {
+.work .desc .btns .btn:hover {
   background: #310ae0f5;
-} */
+}
 .work .viewall {
   display: flex;
   justify-content: center;
@@ -861,13 +861,13 @@ header .navbar ul li a:hover {
   font-size: 1.5rem;
   transition: 0.3s;
 }
-/* .work .viewall .btn:hover {
+.work .viewall .btn:hover {
   background: #fff;
   color: #000;
 }
 .work .viewall .btn:hover i {
   transform: translateX(5px);
-} */
+}
 /* work section ends */
 
 /* experience section starts */
@@ -993,12 +993,12 @@ header .navbar ul li a:hover {
   font-size: 1.5rem;
   transition: 0.3s;
 }
-/* .morebtn .btn:hover {
+.morebtn .btn:hover {
   background: #1a047e;
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
-} */
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -1194,9 +1194,9 @@ form .button-area {
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
-/* .button-area button:hover {
+.button-area button:hover {
   background: #421cecf5;
-} */
+}
 .button-area span {
   font-size: 17px;
   padding: 1rem;
@@ -1210,9 +1210,9 @@ form .button-area {
   transition: 0.3s;
   color: #fff;
 }
-/* .button-area button:hover i {
+.button-area button:hover i {
   left: 8px;
-} */
+}
 /* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
@@ -1290,9 +1290,9 @@ form .button-area {
   padding: 0.3rem 0;
   display: block;
 }
-/* .footer .box-container .box a:hover {
+.footer .box-container .box a:hover {
   color: #ffae00;
-} */
+}
 .footer .box-container .box .share {
   display: flex;
   flex-wrap: wrap;
@@ -1311,12 +1311,12 @@ form .button-area {
   color: #02094b;
   border: none;
 }
-/* .footer .box-container .box .share a:hover {
+.footer .box-container .box .share a:hover {
   background: transparent;
   transform: scale(0.98);
   border: 0.1rem solid rgb(180, 178, 178);
   color: #ffae00;
-} */
+}
 .footer .credit {
   padding: 1rem 0 0 0;
   text-align: center;
@@ -1384,7 +1384,7 @@ form .button-area {
 /* common media queries ends*/
 
 /* scroll top starts */
-/* #scroll-top {
+#scroll-top {
   position: fixed;
   top: -140%;
   right: 2rem;
@@ -1398,5 +1398,5 @@ form .button-area {
 }
 #scroll-top.active {
   top: calc(100% - 12rem);
-} */
+}
 /* scroll top ends */
