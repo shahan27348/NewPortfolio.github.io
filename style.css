@@ -21,7 +21,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* *::selection {
+ *::selection {
   background: #2b3dda;
   color: #fff;
 }
@@ -38,10 +38,10 @@ html::-webkit-scrollbar-track {
 }
 html::-webkit-scrollbar-thumb {
   background: #420177;
-} */
+} 
 
 /* pre loader start */
-/* .loader-container {
+ .loader-container {
   position: fixed;
   top: 0;
   left: 0;
@@ -55,7 +55,7 @@ html::-webkit-scrollbar-thumb {
 }
 .loader-container.fade-out {
   top: -120%;
-} */
+} 
 /* pre loader end */
 
 /* navbar starts */
@@ -95,9 +95,9 @@ header .logo {
 header .logo i {
   font-size: 2.2rem;
 }
-/* header .logo:hover {
+ header .logo:hover {
   color: #fc8c05;
-} */
+} 
 header .navbar ul {
   list-style: none;
   display: flex;
@@ -115,12 +115,12 @@ header .navbar ul li a {
   letter-spacing: 0.04rem;
   transition: 0.2s;
 }
-/* header .navbar ul li a.active,
+header .navbar ul li a.active,
 header .navbar ul li a:hover {
   color: #011aff;
   border-bottom: 0.2rem solid #011aff;
   padding: 0.5rem 0;
-} */
+} 
 /* navbar ends */
 
 /* hamburger icon starts*/
